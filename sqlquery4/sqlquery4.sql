@@ -1,3 +1,3 @@
-SELECT dept_name ,COUNT(*) as count 
+SELECT dept_name ,COUNT(*) 
 FROM Majorsin
 GROUP BY dept_name 

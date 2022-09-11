@@ -1,3 +1,4 @@
-SELECT COUNT(dept_name)
+SELECT student_id ,COUNT(*) 
 FROM Majorsin
-WHERE student_id=(SELECT DISTINCT student_id FROM Majorsin)
+GROUP BY dept_name 
+
